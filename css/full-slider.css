@@ -1,0 +1,218 @@
+/*
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+/*header and btn*/
+#header{
+    height: 100px ;
+    width:  98.5% ;
+    background-color: #2E4053;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+
+}
+
+#header img{
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    position: absolute;
+    float: left;
+}
+.btn {
+    position: absolute;
+    top: -14px;
+    right: 90px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #5D6D7E;
+    background-color: white;
+    font-weight: 5px;
+}
+#btn1 {
+    position: absolute;
+    top: -14px;
+    right: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #5D6D7E;
+    background-color: white;
+    font-weight: 5px;
+}
+
+
+/*top nav*/
+div.top {
+    margin: -10px;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E4053;
+    
+}
+
+ul.topn li {float: left;} 
+
+ul.top li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+ul.top li a:hover:not(.active) {background-color: #374760;}
+
+a.active {background-color: #4CAF50; color: white;}
+.navbar-right li{color: white;}
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+
+.dropdown-toggle{
+    color: white;
+}
+
+
+
+div.second div {
+    margin-left: 10px;
+    margin-top: -9px;
+    width: 98.5%;
+    background-color: #2E4053;
+}
+
+
+
+
+/* search box */
+.button_box2 {
+margin:100px auto;
+}
+/*-------------------------------------*/
+.cf:before, .cf:after{
+content:"";
+display:table;
+}
+.cf:after{
+clear:both;
+}
+.cf{
+zoom:1;
+}
+/*-------------------------------------*/
+
+.form-wrapper-2 {
+width: 600px;
+padding: 0px;
+margin: 20px auto;
+}
+.form-wrapper-2 input {
+width: 490px;
+height: 40px;
+padding: 10px 5px;
+float: left;
+font: bold 15px 'Raleway', sans-serif;
+border: 0;
+background: #eee;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.form-wrapper-2 input::-webkit-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-moz-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-ms-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0;
+padding: 0;
+cursor: pointer;
+height: 40px;
+width: 110px;
+font: bold 15px/40px 'Raleway', sans-serif;
+color: #fff;
+text-transform: uppercase;
+background: #D88F3C;
+-moz-border-radius: 0 3px 3px 0;
+-webkit-border-radius: 0 3px 3px 0;
+border-radius: 0 3px 3px 0;
+text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+.form-wrapper-2 button:hover{
+background: #FA8807;
+}
+.form-wrapper-2 button:active,
+.form-wrapper-2 button:focus{
+background: #c42f2f;
+}
+.form-wrapper-2 button:before {
+content: '';
+position: absolute;
+border-width: 8px 8px 8px 0;
+border-style: solid solid solid none;
+border-color: transparent #D88F3C transparent;
+top: 12px;
+left: -6px;
+}
+.form-wrapper-2 button:hover:before{
+border-right-color: #FA8807;
+}
+.form-wrapper-2 button:focus:before{
+border-right-color: #c42f2f;
+}
+.form-wrapper-2 button::-moz-focus-inner {
+border: 0;
+padding: 0;
+}

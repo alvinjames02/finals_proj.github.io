@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog Home - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-home.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+ <!--header w/ img and search bar and 2 tabs-->
+    <div id="header">
+        <div class="col-sm-12">
+            <img src="img/AT-Logo.png"/>
+                <form class="form-wrapper-2 cf">
+                    <input type="text" placeholder="Search here..." required>
+                    <button type="submit">Search</button>
+                </form>
+
+            <a href="login-signup.html"> <button type="button" class="btn">Login</button></a>
+            <a href="login-signup.html"><button type="button" class="btn" id="btn1">Signup</button></a>
+
+
+
+        </div>
+    </div>
+
+<!--Tabs and dropdowns-->
+<div class="second">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Components<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Processor</a></li>
+            <li><a href="#">Motherboard</a></li>
+            <li><a href="#">Memory</a></li>
+            <li><a href="#">Hard Disk</a></li>
+            <li><a href="#">Graphic Card</a></li>
+            <li><a href="#">Power Supply</a></li>
+            <li><a href="#">Casing</a></li>
+            <li><a href="#">Accesories</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Peripherals<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Mouse</a></li>
+            <li><a href="#">Keyboard</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">AVR & UPS</a></li>
+            <li><a href="#">Monitor</a></li>
+            <li><a href="#">Printer & Scanner</a></li>
+            <li><a href="#">Projector</a></li>
+            <li><a href="#">Speaker</a></li>
+            <li><a href="#">Storage Devices</a></li>
+            <li><a href="#">Webcam</a></li>
+            <li><a href="#">Software</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Laptops<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">Home Office</a></li>
+            <li><a href="#">Multimedia</a></li>
+            <li><a href="#">Gaming</a></li>
+            <li><a href="#">Laptop Memory</a></li>
+            <li><a href="#">Laptop Accessory</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gadgets<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Smartphones</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">Gadget Accessories</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Networking<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Router</a></li>
+            <li><a href="#">Switch</a></li>
+            <li><a href="#">Lan Cables</a></li>
+            <li><a href="#">Pocket Wifi</a></li>
+            <li><a href="#">Wifi Connection</a></li>
+          </ul>
+        </li>
+
+      </ul> 
+      <ul class="nav navbar-nav navbar-right">
+      <li class="right"><a href="forum.html">Forum</a></li>
+      <li class="right"><a href="gallery.html">Gallery</a></li>
+        <li class="right"><a  class="active" href="index.html">Home</a>
+        </li>
+        <li class="right"><a href="about.html">About</a>
+        </li>
+      </ul>
+      </div>        
+</div>
+
+    <!-- Page Content -->
+    <div class="container" style="margin-top: 20px; ">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
+
+
+
+                <!-- First Blog Post -->
+                <h2>
+                    <a href="#">No POST, no beeps: help!</a>
+                </h2>
+                <p class="lead">
+                    by <a href="index.php">ebenweb </a>
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on March 2011 at 10:00 PM</p>
+                <hr>
+                <img class="img-responsive" src="img/i1.jpg" alt="">
+                <hr>
+                <p>I just built my PC with a Rampage III Formula and am getting no POST or beeps at all. I've swapped my video card with a basic (40$) AGP card I use for testing--same result. I tried removing all the RAM and booting and I get the "no RAM detected" beep (I read somewhere this indicates the CPU is OK) but when I add the memory back, nothing.
+I thought it might be a power issue, so I tried disconnecting the two 4-pin/8-pin power cable, leaving only the 24-pin and booted again to see if it changed the behavour. Same result--though I'm not sure what this indicates. Also tried to different sticks of RAM on their own. I've left my HD's connected but don't see how this could affect POST... 
+
+Does anyone have any next-step suggestions before I look at sending the board back under warranty? Is there any way I can verify the CPU isn't the issue (I read on another post that some boards also beep when there's no CPU, but this isn't mentioned in the manual). The CPU is a "new" replacement under warranty from Intel directly. Power supply is a Corsair 650w, also new.</p>
+               
+
+                <hr>
+
+                <!-- Second Blog Post -->
+                <h2>
+                    <a href="#">RIVE DEBUG CODE 40?</a>
+                </h2>
+                <p class="lead">
+                    by <a href="index.php">GPUjoe </a>
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on January 2013 at 10:00 PM</p>
+                <hr>
+                <img class="img-responsive" src="img/i2.jpg" alt="">
+                <hr>
+                <p>Hello all, I have recently updated to win 10 and all of a sudden my RIVE is displaying code 40 on the board. I have no idea what this is, can anyone help me out, cheers.</p>
+                
+
+                <hr>
+
+                <!-- Third Blog Post -->
+                <h2>
+                    <a href="#">UPGRADE 101: GL552</a>
+                </h2>
+                <p class="lead">
+                    by <a href="index.php">ROG.PH </a>
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on March 2016 at 01:00 PM</p>
+                <hr>
+                <img class="img-responsive" src="img/i3.jpg" alt="">
+                <hr>
+                <p>While the world is wanting thinner and lighter laptops, it's easy to forget that for a laptop not much larger in size you can usually get the same great specs or better for less money. Not only that, there are generally more ports, no need for external optical drives, the ability to play games or do 3D rendering, best of all - you have room for upgrades! Let's take a look at the ROG GL552 which can be configured with up to a Core i7 processor, 16GB of DDR3L memory, and Nvidia GeForce GTX 950M graphics. Let's see what you are able to upgrade. First, simply unscrew the two screws at the top of the back panel. Lift it up 45° (do not lift it up past 90°) and slide it out upwards.</p>
+                
+
+                <hr>
+
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="#">&larr; Older</a>
+                    </li>
+                    <li class="next">
+                        <a href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+               
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Blog Categories</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Laptops</a>
+                                </li>
+                                <li><a href="#">Desktops</a>
+                                </li>
+                                <li><a href="#">Upgrade 101</a>
+                                </li>
+                                <li><a href="#">New Products</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-lg-6 -->
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Troubleshooting</a>
+                                </li>
+                                <li><a href="#">Guidelins</a>
+                                </li>
+                                <li><a href="#">Complaints</a>
+                                </li>
+                                <li><a href="#">Hardware</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
